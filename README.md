@@ -1,6 +1,6 @@
 # llm-utils
 
-Hot to use:
+## How to use:
 
 ```
 > pip install -r requirements.txt
