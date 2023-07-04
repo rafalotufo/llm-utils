@@ -50,10 +50,12 @@ def get_info(entity):
     for e in answer:
         try:
             page = wikipedia.page(e)
-            content += page.content
+            content += ('\n' + page.content)
         except Exception as ex:
             print(f'Could not find page on {e}')
-    content = content[:16000]
+    # we truncate t he number of characters here so that the number of tokens fit into
+    # what the model can handle.
+    content = content[:65000]
     return content
 
 def find_question_entity(function_call):
