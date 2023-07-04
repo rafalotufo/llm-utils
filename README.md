@@ -5,5 +5,5 @@
 ```
 > pip install -r requirements.txt
 > export OPENAI_API_KEY=<YOUR-API-KEY>
-> python wikipedia-ai.py "What whas the cause of the Silicon Valley Bank crash in 2023?"
+> python wikipedia-ai.py "What was the cause of the Silicon Valley Bank crash in 2023?"
 ```
