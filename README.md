@@ -1,5 +1,8 @@
 # llm-utils
 
+The following contains the code for the application from this [Medium blog post](https://medium.com/@rafalotufo/unlocking-ai-potential-with-openai-function-calls-a-deep-dive-into-simplifying-data-retrieval-945be3647c09). The blog post
+explains how function calls work and is helpful to understand this code.
+
 ## How to
 
 To run the application, first you need an OPENAPI_API_KEY environment variable with
