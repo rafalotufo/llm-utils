@@ -21,9 +21,10 @@ def call_openai(message, message_history, functions=[]):
         functions=functions
     )
     assert response['choices']
-    message = response['choices'][0]['message']
+    response = response['choices'][0]['message']
     message_history.append(message)
-    return message
+    message_history.append(response)
+    return response
 
 functions = [{
     "name": "query_wikipedia",
